@@ -49,20 +49,57 @@
 <ul>
 <li><p>APPRemover</p></li>
 </ul>
-<p>AppRemover是一个轻便的，卸载工具，它的卸载对象主要是杀毒软件，防火墙和一些P2P软件。可以为企业的员工进行统一的安全软件的清理和管理。</p>
+<p><a href=" http://www.appremover.com/download">AppRemover</a>是一个轻便的，卸载工具，它的卸载对象主要是杀毒软件，防火墙和一些P2P软件。可以为企业的员工进行统一的安全软件的清理和管理。</p>
+<!--
 <img src="images/AppRemover.png" alt="AppRemover Snapshot" />
 <img src="images/detect.png" alt="AppRemover Snapshot" />
+ -->
 <ul>
 <li><p>Gozoom Net Security</p></li>
 </ul><p>这是一款类IP filter软件，提供给你全面掌控自己PC网络的能力。 通过设置白名单ip地址，黑名单地址，来确保你的计算机可以访问受信任的网络资源，抵卸非法ip的攻击。
 同时它又是一款IP filter增强软件，通过提供DNS ,HTTP重定向功能，配合Gozoom公司的Gozoom DNS, Gozoom HTTP可以将DNS,HTTP流量导向Gozoom DNS,Gozoom HTTP进而可以全面确保你的网络安全。</p>
+<!--
 <img src="images/gns.png" alt="Gozoom Net Security Snapshot" />
+ -->
 <ul>
 <li>Gozoom Monitor</li>
 </ul><p>这是一款任务管理器软件，你只有体验后才知道windows的任务管理器是多么的简陋。</p>
+<!--
 <img src="images/Gmonitor.png" alt="Gozoom Monitor Snapshot" />
+ -->
 <h3>我们的工作能力</h3>
+<h4>TODO</h4>
 
+<div id="demo">
+<div id="indemo">
+<div id="demo1">
+<a href="#"><img src="images/AppRemover.png" border="0" class="slideimg" /></a>
+<a href="#"><img src="images/detect.png" border="0" class="slideimg" /></a>
+<a href="#"><img src="images/gns.png" border="0" class="slideimg" /></a>
+<a href="#"><img src="images/Gmonitor.png" border="0" class="slideimg" /></a>
+</div>
+<div id="demo2"></div>
+</div>
+</div>
+<script>
+<!--
+var speed=10;
+var tab=document.getElementById("demo");
+var tab1=document.getElementById("demo1");
+var tab2=document.getElementById("demo2");
+tab2.innerHTML=tab1.innerHTML;
+function Marquee(){
+if(tab2.offsetWidth-tab.scrollLeft<=0)
+tab.scrollLeft-=tab1.offsetWidth
+else{
+tab.scrollLeft++;
+}
+}
+var MyMar=setInterval(Marquee,speed);
+tab.onmouseover=function() {clearInterval(MyMar)};
+tab.onmouseout=function() {MyMar=setInterval(Marquee,speed)};
+-->
+</script>
 <h3>Support or Contact</h3>
 
 <p><a href="mailto:chingliuyu@gmail.com">chingliuyu@gmail.com</a></p>
@@ -72,12 +109,10 @@
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        <p class="copyright">Workinghistory maintained by <a href="https://github.com/Chingliu">Chingliu</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+        <p class="copyright">Workinghistory maintained by Chingliu Yu</p>
+        <p>Published with GitHub Pages</p>
       </footer>
     </div>
-
-    
 
   </body>
 </html>
