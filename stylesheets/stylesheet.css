@@ -342,9 +342,9 @@ Full-Width Styles
 }
 .counter{
   display: block;
-  float: right;
-  width: 50px;
-  height:10px;
+  width: 40%;
+  height:10%;
+  text-align:center;
 }
 .tar_download_link {
   display: block;
